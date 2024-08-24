@@ -1,33 +1,32 @@
-
 body {
-    background: dodgerblue linear-gradient(22deg, aqua, dodgerblue, deeppink) fixed;
-      color: white;
-    font: normal 32px/1.6 system-ui, sans-serif;
-      text-shadow: 0 1px 1px hsl(0 0% 0% / 20%);
-    margin: 3rem;
-  }
-  
-  h1 {
-      font-weight: normal;
-  }
+  background: dodgerblue linear-gradient(22deg, aqua, dodgerblue, deeppink)
+    fixed;
+  color: white;
+  font: normal 32px/1.6 system-ui, sans-serif;
+  text-shadow: 0 1px 1px hsl(0 0% 0% / 20%);
+  margin: 3rem;
+}
+
+h1 {
+  font-weight: normal;
+}
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-	max-width: 50rem; 
-    gap: 1.25rem;
-	
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 50rem;
+  gap: 1.25rem;
 }
 .input-wrap {
-    display: flex;
-    gap: 20px;
-    width: 100%;
+  display: flex;
+  gap: 20px;
+  width: 100%;
 }
 .input {
-    display: block;
+  display: block;
   width: 100%;
-  height: calc(36px + .125rem);
+  height: calc(36px + 0.125rem);
   padding: 6px 12px;
   font-family: inherit;
   font-size: 16px;
@@ -36,41 +35,40 @@ body {
   color: #212529;
   background-color: #fff;
   background-clip: padding-box;
-  border: .0625rem solid #bdbdbd;
+  border: 0.0625rem solid #bdbdbd;
   border-radius: 4px;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 button {
-    background: rgb(242, 37, 149);
+  background: rgb(242, 37, 149);
   width: 150px;
   height: 40px;
   border: none;
-  color: #FFF;
+  color: #fff;
   border-radius: 10px;
   font-family: inherit;
   font-size: 15px;
   letter-spacing: 1px;
   outline: none;
   cursor: pointer;
-  
 }
 ul {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 li {
-    list-style-type: none;
-    color:black;
-    display: flex;
-    gap: 40px;
-    align-items:center;
-    justify-content: space-between;
+  list-style-type: none;
+  color: black;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .completed {
-    text-decoration: line-through;
-  }
+  text-decoration: line-through;
+}
 /* #button {
 text-decoration:none;
 } */
